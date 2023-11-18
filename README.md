@@ -17,8 +17,8 @@ Ce Projet est exploration de developpement Android sous Java et XML :
 ### Quelques Captures d'écran de l'application
 
 <p align="left">
-<img width="400" alt="Table Layout" src="https://github.com/tizibienvenus/Table_Layout/blob/main/Screenshot_20231118-011931.jpg"/>
-<img width="400" alt="Table Layout" src="https://github.com/tizibienvenus/Table_Layout/blob/main/Table_Layout.jpg"/>
+<img width="400" alt="Table Layout" src="https://github.com/tizibienvenus/Table_Layout_Exploring/blob/main/Screenshot_20231118-015419.jpg"/>
+<img width="400" alt="Table Layout" src="https://github.com/tizibienvenus/Table_Layout_Exploring/blob/main/Screenshot_20231118-015412.jpg"/>
 
 
 ## Feedback
