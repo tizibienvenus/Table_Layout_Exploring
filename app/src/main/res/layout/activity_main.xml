@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="80dp">
+
+        <!-- Entête de la table -->
+
+        <TableRow>
+            <!--    android:background="@color/colorGreen">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/col1"
+                android:textColor="@android:color/white"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:gravity="left"
+                />
+                -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_weight="4"
+                android:gravity="left"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/col2"
+                android:textStyle="bold"
+                android:padding="10sp"
+                android:textSize="15sp"
+                android:layout_weight="4"
+                android:gravity="left"
+                />
+            <!-- android:textColor="@android:color/white" -->
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/col3"
+                android:textStyle="bold"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="2"
+                android:gravity="left"/>
+                <!-- android:textColor="@android:color/white" -->
+
+
+
+        </TableRow>
+
+        <!-- Table Data -->
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/row1Name"
+                android:padding="10sp"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_weight="4"
+                android:gravity="left"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/engliglish1"
+                android:padding="10sp"
+                android:textSize="12sp"
+                android:layout_weight="4"
+                android:gravity="left"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/engliglish2"
+                android:padding="10sp"
+                android:textSize="12sp"
+                android:layout_weight="2"
+                android:gravity="left"
+                />
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/row2Name"
+                android:textStyle="bold"
+                android:padding="10sp"
+                android:textSize="15sp"
+                android:layout_weight="4"
+                android:gravity="left"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/indian1"
+                android:padding="10sp"
+                android:textSize="12sp"
+                android:layout_weight="4"
+                android:gravity="left"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/indian2"
+                android:padding="10sp"
+                android:textSize="12sp"
+                android:layout_weight="2"
+                android:gravity="left"
+                />
+
+        </TableRow>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:text="Menu"
+            android:layout_marginTop="30dp"
+            android:layout_marginHorizontal="80dp"
+            />
+
+    </TableLayout>
+
+</RelativeLayout>
+
+    <!-- Tizi Bienvenus -->

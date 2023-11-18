@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Table Layout</string>
+    <string name="col3">English</string>
+    <string name="col2">India</string>
+    <string name="row1Name">1st Innings</string>
+    <string name="row2Name">2nd Innings</string>
+    <string name="engliglish1">212</string>
+    <string name="engliglish2">704</string>
+    <string name="indian1">134</string>
+    <string name="indian2">563</string>
+    <string name="row3Name">Guibolo</string>
+    <string name="row3Age">23</string>
+    <string name="row3Surname">David</string>
+</resources>
